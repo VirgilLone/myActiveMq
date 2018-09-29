@@ -17,10 +17,8 @@ import javax.jms.TextMessage;
  * Created by WYluo on 2018/3/28.
  */
 public class AppConsumer {
+    //master合并消失？
     private static final String url ="tcp://192.168.2.116:61616";
-
-    //开发分支 新加内容
-    char fuck='X';
 
     private static final String queueNam ="queue_test";
 
