@@ -19,9 +19,6 @@ import javax.jms.TextMessage;
 public class AppConsumer {
     private static final String url ="tcp://192.168.2.116:61616";
 
-    //开发分支 新加内容
-    char fuck='X';
-
     private static final String queueNam ="queue_test";
 
     public static void main(String[] args) throws JMSException {
